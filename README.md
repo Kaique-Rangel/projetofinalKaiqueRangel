@@ -21,16 +21,12 @@ Certifique-se de que seu ambiente está configurado corretamente:
 4. A extensão **Pi Pico** criará automaticamente a pasta `build`.
 5. Clique em **Compile** na barra inferior direita (ao lado de **RUN | PICO SDK**).
 6. Clique em **RUN**.
-7. Abra o **SERIAL MONITOR** (próximo a **XRTOS**).
-8. Clique em **Start Monitoring** e escreva caracteres.
-9. Os caracteres digitados aparecerão no display da placa **BitDogLab**.
-10. **Botão A**: Liga/desliga o **LED Verde** e exibe mensagem no display.
-11. **Botão B**: Liga/desliga o **LED Azul** e exibe mensagem no display.
-12. Se ambos os LEDs estiverem ligados, suas cores se misturam.
+10. **Botão A**: Interação quando aparece a letra A.
+11. **Botão B**: Interação quando aparece a letra B.
 
 ## Descrição do Projeto
 
-O projeto utiliza um **Raspberry Pi Pico** para interação com um **display SSD1306**, LEDs comuns e LEDs **WS2812**. Além disso, há interação via **Serial Monitor** para exibição de caracteres digitados.
+O projeto utiliza um **Raspberry Pi Pico** para interação com um **display SSD1306**, LEDs comuns e LEDs **WS2812**. Além disso, há interação via **Serial Monitor** para exibição de caracteres para serem digitados.
 
 ### Funcionalidades Principais
 
@@ -48,12 +44,7 @@ O projeto utiliza um **Raspberry Pi Pico** para interação com um **display SSD
 * Exibição de caracteres **maiúsculos e minúsculos**.
 * Interface com **I2C**.
 
-#### 5. Comunicação via UART
-* Entrada de caracteres pelo **Serial Monitor do VSCode**.
-* Exibição dos caracteres digitados no **display SSD1306**.
-* Quando um número entre **0 e 9** for digitado, ele será exibido na **matriz WS2812**.
-
-#### 6. font.h
+#### 5. font.h
 * Foram criados caracteres minúsculos para a font.h.
 
 ## Organização do Código
@@ -62,7 +53,6 @@ O projeto utiliza um **Raspberry Pi Pico** para interação com um **display SSD
 - **Debouncing**: Implementado para evitar múltiplas leituras falsas.
 - **Controle WS2812**: Exibição de números na matriz de LEDs.
 - **Display SSD1306**: Uso de **I2C** para exibição de caracteres digitados.
-- **Comunicação Serial**: Interação via **UART**.
 
 
 
