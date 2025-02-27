@@ -1,15 +1,11 @@
 # EmbarcaTech
 
-### TAREFA aula síncrona 03/02/2025
+### PROJETO FINAL 26/02/2025
 
 #### Grupo 4 - Prof. Clea
 
 ##### Autor:
 * Kaique Rangel Da Silva
-
-#### Vídeo de funcionamento
-
-* Link: https://youtu.be/6_cGg9JLwdo
 
 ## Instruções de Compilação
 
